@@ -1,6 +1,50 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
+*{
+    /* When You set height/width count with margin and padding */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: "Merriweather", serif;
+}
+
+/* Banner Section style starts here */
+.banner-container{
+    width: 1320px;
+    /* 2 pas thkay same margin chera dibe (It will give the same margin from both sides */
+    margin: 0 auto;
+    border: 2px solid red;
+    min-height: 600px;
+    background-image: url(../images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(0,0,0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.banner-content p, h1{
+    color: white;
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.banner-content p{
+    font-size: 32px;
+    font-weight: 400;
 }
