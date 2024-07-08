@@ -14,10 +14,10 @@ body{
 
 /* Banner Section style starts here */
 .banner-container{
-    width: 1320px;
+    max-width: 1320px;
     /* 2 pas thkay same margin chera dibe (It will give the same margin from both sides */
     margin: 0 auto;
-    border: 2px solid red;
+    
     min-height: 600px;
     background-image: url(../images/Banner\ Image.png);
     background-position: center;
@@ -25,6 +25,7 @@ body{
     background-size: cover;
     background-color: rgb(0,0,0, 0.5);
     background-blend-mode: overlay;
+    border-radius: 16px;
 }
 
 .banner-content{
@@ -48,3 +49,28 @@ h1{
     font-size: 32px;
     font-weight: 400;
 }
+
+/* Banner Section style Ends here */
+
+/* 65% Section Style Starts Here */
+
+.section65-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.section65-content h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 806px;
+}
+/* 65% Section Style Ends Here */
